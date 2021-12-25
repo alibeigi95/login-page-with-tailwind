@@ -28,26 +28,85 @@
 
             <div class="mt-10">
                 <form action="">
-                    <label for="email" class="mb-1 text-xs tracking-wide text-gray-600">name:</label>
-                    <div class="relative">
-                        <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
-                            <i class="fas fa-user text-blue-500"></i>
+                    <div class="flex flex-col mb-5">
+
+
+                        <label for="name" class="mb-1 text-xs tracking-wide text-gray-600">name:</label>
+                        <div class="relative">
+                            <div
+                                class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+                                <i class="fas fa-user text-blue-500"></i>
+                            </div>
+                            <input type="text" id="name" name="name" class="text-sm
+                        placeholder-gray-500
+                        pl-10
+                        pr-4
+                        rounded-2xl
+                        border
+                        border-gray-400
+                        w-full py-2
+                        focus:outline-none focus:border-blue-400" placeholder="Enter your name">
+
+
+
+
                         </div>
                     </div>
+                    <div class="flex flex-col mb-5">
+
+
+                        <label for="email" class="mb-1 text-xs tracking-wide text-gray-600">E-mail Address:</label>
+                        <div class="relative">
+                            <div
+                                class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+                                <i class="fas fa-at text-blue-500"></i>
+                            </div>
+                            <input type="email" id="email" name="email" class="text-sm
+                        placeholder-gray-500
+                        pl-10
+                        pr-4
+                        rounded-2xl
+                        border
+                        border-gray-400
+                        w-full py-2
+                        focus:outline-none focus:border-blue-400" placeholder="Enter your email">
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="flex flex-col mb-6">
+
+
+                        <label for="email" class="mb-1 text-xs tracking-wide text-gray-600">Password:</label>
+                        <div class="relative">
+                            <div
+                                class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+                                <i class="fas fa-lock text-blue-500"></i>
+                            </div>
+                            <input type="password" id="password" name="password" class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl  border       border-gray-400                        w-full py-2
+                        focus:outline-none focus:border-blue-400" placeholder="Enter your Password">
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="flex w-full">
+                        <button type="submit"
+                            class="flex mt-2 items-center justify-center text-white text-sm sm:text-base  focus:outline-none bg-blue-500 rounded-2xl py-2 w-full transition duration-150 ease-in">
+                            SIGN UP
+                        </button>
+                    </div>
                 </form>
-
             </div>
+        </div>
+        <div class="flex justify-center items-center mt-6">
+            <a href="#" class="inline-flex items-center text-gray-700 font-medium text-xs text-center " > <span class="ml-2">You have an account? <a href="#" class="text-xs ml-2 text-blue-500 font-semibold" >Login here</a> </span></a>
 
-
-            <input type="text" placeholder="Enter your name">
-            <label for="">E-mail address:</label>
-            <input type="email" placeholder="Enter your email">
-            <label for="">Password:</label>
-            <input type="password" placeholder="Enter your password">
-            <button>SIGN UP</button>
 
         </div>
-
 
 
 
